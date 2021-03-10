@@ -1,0 +1,15 @@
+Error: {badmatch,[]}
+[{rebar_prv_bare_compile,do,1,
+                         [{file,"/tmp/cirrus-ci-build/src/rebar_prv_bare_compile.erl"},
+                          {line,60}]},
+ {rebar_core,do,2,
+             [{file,"/tmp/cirrus-ci-build/src/rebar_core.erl"},{line,154}]},
+ {rebar_prv_do,do_task,5,
+               [{file,"/tmp/cirrus-ci-build/src/rebar_prv_do.erl"},{line,87}]},
+ {rebar_core,do,2,
+             [{file,"/tmp/cirrus-ci-build/src/rebar_core.erl"},{line,154}]},
+ {rebar3,run_aux,2,[{file,"/tmp/cirrus-ci-build/src/rebar3.erl"},{line,182}]},
+ {rebar3,main,1,[{file,"/tmp/cirrus-ci-build/src/rebar3.erl"},{line,66}]},
+ {escript,run,2,[{file,"escript.erl"},{line,758}]},
+ {escript,start,1,[{file,"escript.erl"},{line,277}]}]
+

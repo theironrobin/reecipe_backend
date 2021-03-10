@@ -2,10 +2,11 @@ use Mix.Config
 
 # Configure your database
 config :reecipe_backend, ReecipeBackend.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "elixir",
+  password: "elixir",
   database: "reecipe_backend_dev",
   hostname: "localhost",
+  port: "4432",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
