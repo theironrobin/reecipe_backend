@@ -1,0 +1,5 @@
+- recipe
+    - id field
+    - name field (e.g., guacamole)
+    - tag field (e.g., sauce, vegan)
+    - body field (the rest of the recipe)
