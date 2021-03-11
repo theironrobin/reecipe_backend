@@ -14,5 +14,5 @@ A valid recipe consists of:
     - tag field{:array, string} (["sauce", "vegan"])
     - yields field{:array, string} (["4 Servings", "200g"])
     - ingredients field{:map, string} ({amount: "1", item: "avocado"})
-    - instructions field:string ("Remove flesh from avocado and roughly mash with fork. Season to taste with salt pepper and lemon juice.")
+    - instructions field{:array string} (["Remove flesh from avocado and roughly mash with fork. Season to taste with salt pepper and lemon juice.", "Enjoy!"])
 
