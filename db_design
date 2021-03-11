@@ -1,5 +1,18 @@
+Recipe
+A valid recipe consists of:
+    a title
+    optional: a short description
+    optional: 1..n tags
+    optional: 1..n yields
+    the ingredients as 1..n ingredient groups
+    optional: instructions
+
 - recipe
     - id field
-    - name field (e.g., guacamole)
-    - tag field (e.g., sauce, vegan)
-    - body field (the rest of the recipe)
+    - title field:string ("guacamole")
+    - description field:string ("Some people call it guac")
+    - tag field{:array, string} (["sauce", "vegan"])
+    - yields field{:array, string} (["4 Servings", "200g"])
+    - ingredients field{:map, string} ({amount: "1", item: "avocado"})
+    - instructions field:string ("Remove flesh from avocado and roughly mash with fork. Season to taste with salt pepper and lemon juice.")
+
