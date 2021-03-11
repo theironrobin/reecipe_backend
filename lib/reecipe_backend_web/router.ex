@@ -7,6 +7,7 @@ defmodule ReecipeBackendWeb.Router do
 
   scope "/api", ReecipeBackendWeb do
     pipe_through :api
+    resources "/recipes", RecipeController, except: [:new, :edit]
   end
 
   # Enables LiveDashboard only for development
