@@ -17,6 +17,6 @@ defmodule ReecipeBackend.Recipes.Recipe do
   def changeset(recipe, attrs) do
     recipe
     |> cast(attrs, [:title, :description, :tag, :yields, :ingredients, :instructions])
-    |> validate_required([:title, :description, :tag, :yields, :ingredients, :instructions])
+    |> validate_required([:title, :ingredients])
   end
 end
